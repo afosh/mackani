@@ -85,7 +85,14 @@ app.post('/api', (req, res)=>{
 
     client.messages 
       .create({ 
-         body:`name: ${name} date: ${date} barber: ${barber} time: ${time} Services: ${arr} phone: ${phone}`, 
+         body:`
+الاسم : ${name}
+اليوم : ${date}
+الحلاق : ${barber}
+الوقت : ${time}
+الخدمات : ${arr}
+الهاتف : ${phone}
+`, 
         from: 'whatsapp:+14155238886',       
          to: 'whatsapp:+966567246284' 
        }) 
