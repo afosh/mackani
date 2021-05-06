@@ -64,24 +64,7 @@ const barbers = [
         { id: 15, value: "منكير بدكير", price: "150 SR" },
       ];
 
-const engVersionReservations = [
-    { id: 0, value: "Silver Package", price: "150 SR" },
-        { id: 1, value: "Golden Package", price: "250 SR" },
-        { id: 2, value: "Diamond Package", price: "400 SR" },
-        { id: 3, value: "Haircut", price: "35 SR" },
-        { id: 4, value: "BeardCut", price: "25 SR" },
-        { id: 5, value: "hair", price: "50 SR" },
-        { id: 6, value: "انواع الماسك", price: "50 SR" },
-        { id: 7, value: "شمع", price: "50 SR" },
-        { id: 8, value: "حمام زيت شعر", price: "120 SR" },
-        { id: 9, value: "صبغة شعر", price: "120 SR" },
-        { id: 10, value: "صبغة دقن", price: "60 SR" },
-        { id: 11, value: "كراتين", price: "300 SR" },
-        { id: 12, value: "حناء شعر", price: "100 SR" },
-        { id: 13, value: "تنظيف بشره", price: "250 SR" },
-        { id: 14, value: "تجهيز عرسان", price: "800 SR" },
-        { id: 15, value: "منكير بدكير", price: "150 SR" },
-]
+
 console.log(barbers)
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
