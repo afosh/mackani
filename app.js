@@ -92,7 +92,7 @@ app.post('/api', (req, res)=>{
       .then(message => console.log(message.sid)) 
       .done();
     console.log(arr);
-    res.send('welcome to /api')
+    res.send('تم الحجز بنجاح')
 })
 
 app.listen(PORT, ()=> console.log(`server is up on port ${PORT}`));
