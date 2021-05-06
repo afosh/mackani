@@ -18,11 +18,11 @@ app.use(express.json());
 app.use(express.urlencoded());
 
 const barbers = [
-    {id:1, value:"Anwar"},
-    {id:2, value:"Amjad"},
-    {id:3, value:"Rabah"},
-    {id:4, value:"Kamal"},
-    {id:5, value:"Jamal"},
+    {id:1, value:"أنور"},
+    {id:2, value:"أمجد"},
+    {id:3, value:"رباح"},
+    {id:4, value:"كمال"},
+    {id:5, value:"جمال"},
   
   ];
   const time = [
