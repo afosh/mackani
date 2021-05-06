@@ -103,8 +103,8 @@ app.post('/api', (req, res)=>{
     client.messages 
       .create({ 
          body:`name: ${name} date: ${date} barber: ${barber} time: ${time} Services: ${arr} phone: ${phone}`, 
-         from: 'whatsapp:+14155238886',       
-         to: 'whatsapp:+966566438824' 
+        from: 'whatsapp:+14155238886',       
+         to: 'whatsapp:+966567246284' 
        }) 
       .then(message => console.log(message.sid)) 
       .done();
